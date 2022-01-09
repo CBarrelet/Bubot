@@ -1,0 +1,9 @@
+{
+	"place": "Unknown_first",
+	"date": "13_12_2000",
+	"time": "00_00_00",
+	"comment": "test json",
+	"left_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_video/left.MP4",
+	"right_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_video/right.MP4",
+	"calibration_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_video/stereo_params.p"
+}

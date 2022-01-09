@@ -1,0 +1,9 @@
+{
+	"place": "Ngouja",
+	"date": "13_12_2000",
+	"time": "12_01_12",
+	"comment": "test json",
+	"left_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_image/testL.png",
+	"right_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_image/testR.png",
+	"calibration_path": "/home/cyril/Bureau/Bubot_project/data/examples/test_image/stereo_params.p"
+}
