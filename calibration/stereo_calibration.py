@@ -193,10 +193,11 @@ def stereoCalibration():
 	#stereo_flags |= cv2.CALIB_FIX_K3
 	#stereo_flags |= cv2.CALIB_FIX_K4
 	#stereo_flags |= cv2.CALIB_FIX_K5
-
+	
 	ret, rectified_M1, rectified_D1, rectified_M2, rectified_D2, R, T, E, F = cv2.stereoCalibrate(object_points, left_image_points, right_image_points, 
-																										M1, D1, M2, D2, imgSize, 
-																										criteria, flags=stereo_flags)
+													M1, D1, M2, D2, imgSize, 
+													criteria, flags=stereo_flags)
+	
 	print("Stereo RMS : ", ret)
 	print(" M1 : \n", M1)
 	print(" M2 :\n", M2)
